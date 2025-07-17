@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "24569721",
+      "value": "29448785",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "b0081b01a3f015d9c76f5ed9e7b20271",
+      "value": "599574f6aff0a09ebb76305b58e7e9c2",
       "required": true
     },
     "BOT_TOKEN": {
@@ -29,27 +29,27 @@
     },
     "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
-      "value": "mongodb+srv://Akash:SanataniAkash@sanataniakash.co9sxq5.mongodb.net/?retryWrites=true&w=majority&appName=SanataniAkash",
+      "value": "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION",
       "required": true
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7853121219",
+      "value": "7574330905",
       "required": true
     },
     "OWNER_USERNAME": {
       "description": "The username of the owner (without @)",
-      "value": "WTF_NoHope",
+      "value": "WTF_WhyMeeh",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "Ananya_VcMusic_Bot",
+      "value": "ShrutixMusicBot",
       "required": true
     },
     "UPSTREAM_REPO": {
       "description": "URL of your GitHub repository",
-      "value": "https://github.com/akashprajapati9548/AkashOP",
+      "value": "https://github.com/NoxxOP/ShrutiMusic",
       "required": false
     },
     "STRING_SESSION": {
@@ -79,12 +79,12 @@
     },
     "SUPPORT_GROUP": {
       "description": "Your support group username (without @)",
-      "value": "https://t.me/Aura_Kingdom_Group",
+      "value": "https://t.me/ShrutiBotsupport",
       "required": false
     },
     "SUPPORT_CHANNEL": {
       "description": "Your support channel username (without @)",
-      "value": "https://t.me/Sanatani_Network",
+      "value": "https://t.me/ShrutiBots",
       "required": false
     },
     "COOKIE_URL": {
