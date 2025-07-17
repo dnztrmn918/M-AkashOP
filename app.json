@@ -44,7 +44,7 @@
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
+      "value": "Ananya_VcMusic_Bot",
       "required": true
     },
     "UPSTREAM_REPO": {
