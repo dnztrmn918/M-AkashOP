@@ -113,7 +113,7 @@ COMMANDS = [
     BotCommand("dare", "💪 Get random dare challenge"),
     BotCommand("mongochk", "🗃 Check MongoDB URL validity"),
     BotCommand("font", "🎨 Convert text to beautiful fonts"),
-    BotCommand("sg", "🔗 Get User id details"),
+    BotCommand("sg", "🔗 Get User id details for msg me private chat"),
     BotCommand("gali", "😤 Send random gali"),
     BotCommand("bots", "🤖 Get list of bots in group")
 ]
