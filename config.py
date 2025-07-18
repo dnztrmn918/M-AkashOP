@@ -43,6 +43,7 @@ OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
 LOGGER_ID = -1002321189618
+
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
