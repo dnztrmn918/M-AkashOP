@@ -1,38 +1,9 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
-
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#     ⚙️ CONFIGURATION FILE | Powered By @WTF_WhyMeeh & @ShrutiBots
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 import os
 import re
-from dotenv import load_dotenv
 from pyrogram import filters
 
-load_dotenv()
-
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 📲 Telegram & API Credentials
+# 🤖 Bot Authentication Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 API_ID = int(os.getenv("API_ID"))
@@ -41,8 +12,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
-LOGGER_ID = -1002321189618
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -50,6 +19,7 @@ LOGGER_ID = -1002321189618
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+LOGGER_ID = -1002321189618  # ✅ Hardcoded log group for bot leave logs
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -117,7 +87,7 @@ STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+SOUNDCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
@@ -135,6 +105,7 @@ autoclean = []
 confirmer = {}
 
 TEMP_DB_FOLDER = "tempdb"
+
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ⏳ Time Conversion Utility
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
