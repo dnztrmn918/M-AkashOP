@@ -1,3 +1,5 @@
+print("✅ stalk.py loaded")
+
 import asyncio
 import random
 
