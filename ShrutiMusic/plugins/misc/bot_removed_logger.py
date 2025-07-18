@@ -2,12 +2,10 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
 
-print("✅ bot_removed_logger.py loaded successfully")
-
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from config import LOGGER_ID
-from ShrutiMusic import app  # ✅ Required line
+from ShrutiMusic import app
 
 @app.on_message(filters.left_chat_member)
 async def bot_removed_from_group(client: Client, message: Message):
