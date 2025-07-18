@@ -1,3 +1,5 @@
+print("✅ Assistant welcome module loaded.")
+
 from pyrogram import filters
 from pyrogram.types import Message
 
