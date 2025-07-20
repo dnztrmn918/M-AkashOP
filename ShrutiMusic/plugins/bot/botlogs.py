@@ -1,25 +1,3 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
-
-
 import random
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -27,7 +5,7 @@ from config import LOG_GROUP_ID
 from ShrutiMusic import app
 from ShrutiMusic.utils.database import add_served_chat, get_assistant
 
-welcome_photo = "https://files.catbox.moe/ajobub.jpg"
+welcome_photo = "https://files.catbox.moe/mltyav.jpg"
 
 @app.on_message(filters.new_chat_members, group=-10)
 async def join_watcher(_, message):
