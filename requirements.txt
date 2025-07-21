@@ -1,6 +1,7 @@
 gTTS
 flask
 aiofiles
+lyricsgenius
 aiohttp
 asyncio
 beautifulsoup4
