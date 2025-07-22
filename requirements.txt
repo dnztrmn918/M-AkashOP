@@ -4,7 +4,6 @@ aiofiles
 lyricsgenius
 pyrogram==2.0.106
 tgcrypto
-worker: python main.py
 aiohttp
 asyncio
 beautifulsoup4
