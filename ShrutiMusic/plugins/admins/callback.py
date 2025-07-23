@@ -61,6 +61,30 @@ from ShrutiMusic.utils.inline.start import about_panel
 from strings import get_string
 from config import BANNED_USERS
 
+@app.on_callback_query()
+async def callback_handler(client, callback_query):
+    data = callback_query.data
+
+    if data == "welcome_info":
+        await callback_query.message.edit(
+            "**👋 User Welcome Message**\n\n"
+            "• `/welcome on` – Enable welcome message\n"
+            "• `/welcome off` – Disable welcome message",
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🔙 Back", callback_data="help")],
+                [InlineKeyboardButton("❌ Close", callback_data="close")]
+            ])
+        )
+
+    elif data == "help":
+        await callback_query.message.edit(
+            "**Help Menu**\n\nChoose an option below:",
+            reply_markup=HELP_BUTTONS
+        )
+
+    elif data == "close":
+        await callback_query.message.delete()
+
 @app.on_callback_query(filters.regex("about_page") & ~BANNED_USERS)
 async def about_cb(client, callback_query):
     try:
