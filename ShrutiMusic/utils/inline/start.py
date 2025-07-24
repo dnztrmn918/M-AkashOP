@@ -25,3 +25,6 @@ def about_panel(_):
         [InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="settingsback_helper")]
     ]
     return buttons
+
+
+# ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
