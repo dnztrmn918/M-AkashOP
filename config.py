@@ -163,3 +163,6 @@ if SUPPORT_GROUP:
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #     ✅ CONFIG LOADED SUCCESSFULLY | Designed By @WTF_WhyMeeh
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+# ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
