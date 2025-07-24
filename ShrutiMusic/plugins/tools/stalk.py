@@ -66,3 +66,6 @@ async def stalk_user_history(client, message: Message):
         pass
 
     await loading.delete()
+
+
+# ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
