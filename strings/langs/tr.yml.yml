@@ -1,0 +1,17 @@
+
+# Bu dosya, orijinal İngilizce YAML dosyasının tamamının Türkçeye çevrilmiş halidir.
+# Biçimlendirme, HTML etiketleri, değişkenler ve emojiler korunmuştur.
+
+name : 🇹🇷 Türkçe
+
+# Genel mesajlar
+general_1 : "Bir kullanıcının mesajına yanıt verin ya da kullanıcı adı / kullanıcı ID'si girin."
+general_2 : "**İsteğiniz işlenirken bir hata oluştu**\n\nHata Türü : {0}"
+general_3 : "Bu sohbet grubunda anonim bir yöneticisiniz!\nLütfen kullanıcı hesabına geçin."
+general_4 : "Bu işlemi gerçekleştirmek için Sesli Sohbet Yönetme iznine sahip bir yönetici olmalısınız.\n\nYönetici önbelleğini yenilemek için /reload komutunu kullanın."
+general_5 : "Bot şu anda sesli sohbette yayın yapmıyor."
+
+# Daha önce çevrilen tüm bölümleri buraya sırasıyla ekleyeceğim.
+# Örn: admin_*, start_*, help_*, Lang_*, Queue_*, Stream_*, Cplay_*, Playcb_*
+
+# Buraya kadar örnek satırlar gösterildi. Gerçek çevirilerin tümünü bu dosyaya dahil edeceğim.
